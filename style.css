@@ -1,5 +1,6 @@
 #searchbar{
-    margin-left: 15%;
+    
+    margin-left: 0%;
     padding:15px;
     border-radius: 10px;
   }
@@ -18,9 +19,13 @@
 
  #list{
    font-size:  1.5em;
-   margin-left: 90px;
+   margin-left: 0px;
   }
 
 .animals{
   display: list-item;    
  } 
+#descript{
+  color: red;
+  font-size: small;
+}
