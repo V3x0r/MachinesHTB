@@ -6,7 +6,9 @@
     <title>Pwned Hack The Box</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
-<body bgcolor="black">
+<!-- linking the stylesheet(CSS) -->
+<link rel="stylesheet" type="text/css" href="./style.css">
+<body bgcolor="">
     <main>
         <header>
             <h1 style="color: azure; align-content: center;">Machines Hack The Box Pwned</h1>
@@ -19,12 +21,37 @@
         
 
         <!--Barra de Pesquisa-->
-            <div id="divBusca" 
+            
+        <!--Aqui Começa a Listagem de Máquinas-->
+        <!-- input tag -->
+<input id="searchbar" onkeyup="search_animal()" type="text"
+name="search" placeholder="Search animals..">
+
+<!-- ordered list -->
+<ol id='list'>
+<li class="animals"><a href="easy/injetc.html">Inject</a></li>
+<li class="animals"><a href="easy/stocker.html">Stocker</a></li>
+<li class="animals"><a href="easy/soccer.html">Soccer</a></li>
+<li class="animals"><a href="easy/precious/html">Precious</a></li>
+<li class="animals"><a href="easy/metatwo.html">MetaTwo</a></li>
+</ol>
+
+<!-- linking javascript -->
+<script src="./animals.js"></script>
+    </main>
+</body>
+</html>
+
+
+
+
+
+<!--<div id="divBusca" 
             style="
             background-color: #E0EEEE;
             border: solid 2px 5F9EA0;
             border-radius: 10px;
-            width: 300px;
+            width: 250px;
             height: 32px;
             ">
                 <input 
@@ -43,27 +70,10 @@
                 border: none;
                 float: left;
                 height: 32px;
-                border-radius: 0px 7px 7px 0;
-                width: 70px;
+                border-radius: 0px 7px 7px;
+                width: 50px;
                 font-weight: bold;
                 background: #5F9EA0;
                 "
                 id="btnBuscar">Buscar</button>
-            </div>
-        <!--Aqui Começa a Listagem de Máquinas-->
-
-        <ol style="color: azure;">
-            <a href="easy/injetc.html"><li>Inject</li></a>
-             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae neque ipsa, impedit ab voluptatibus dolorem dolor aliquid assumenda magni. Excepturi dicta dignissimos ea deleniti unde earum provident recusandae cupiditate est.</p>
-             <a href="easy/stocker.html"><li>Stocker</li></a>
-             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae neque ipsa, impedit ab voluptatibus dolorem dolor aliquid assumenda magni. Excepturi dicta dignissimos ea deleniti unde earum provident recusandae cupiditate est.</p>
-             <a href="easy/soccer.html"><li>Soccer</li></a>
-             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae neque ipsa, impedit ab voluptatibus dolorem dolor aliquid assumenda magni. Excepturi dicta dignissimos ea deleniti unde earum provident recusandae cupiditate est.</p>
-             <a href="easy/precious.html"><li>Precious</li></a>
-             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae neque ipsa, impedit ab voluptatibus dolorem dolor aliquid assumenda magni. Excepturi dicta dignissimos ea deleniti unde earum provident recusandae cupiditate est.</p>
-             <a href="easy/MetaTwo.html"><li>MetaTwo</li></a>
-             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae neque ipsa, impedit ab voluptatibus dolorem dolor aliquid assumenda magni. Excepturi dicta dignissimos ea deleniti unde earum provident recusandae cupiditate est.</p>           
-        </ol>
-    </main>
-</body>
-</html>
+            </div>-->
